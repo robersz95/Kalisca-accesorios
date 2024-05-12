@@ -8,6 +8,10 @@ body {
     background-color: white;
 }
 
+main {
+    padding: 30px;
+}
+
 :root {
     --color-primary: #ede2d9;
 }
@@ -18,8 +22,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
-    margin: 5px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 15px;
+    border: 1px solid grey;
 }
 
 header nav ul {
@@ -49,6 +55,7 @@ section {
     margin: 5px;
     padding: 5px;
     min-height: 100vh;
+    border-radius: 15px;
 }
 
 /*INICIO----*/
@@ -86,6 +93,7 @@ section {
     border: 1px solid;
     border-radius: 15px;
     background-color: white;
+    box-shadow: 8px 10px 6px -3px rgba(0, 0, 0, 0.66);
 }
 
 #categories div:hover {
@@ -162,7 +170,10 @@ section {
 /*MENSAJE----*/
 
 #message {
+    align-items: center;
     background-color: var(--color-primary);
+    border: solid beige;
+    padding: 100px;
 }
 
 form * {
@@ -178,6 +189,7 @@ form {
     width: 50%;
     padding: 30px;
     margin: auto;
+    border-radius: 15px;
 }
 
 form input,
@@ -188,19 +200,31 @@ button {
     border-radius: 15px;
 }
 
+form button {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*contacto---*/
+
 #contact {
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+    align-items: center;
+    justify-content: space-between;
     background-color: var(--color-primary);
+    padding: 20px;
+    margin-top: 100px;
+}
+
+
+#contact .contact1 {
+    background-color: var(--color-primary);
+    font-size: 20px;
     padding: 20px;
 }
 
-#contact * {
-    padding: 10px;
-
-}
 
 #contact img {
+    background-color: var(--color-primary);
     width: 50%;
 }
