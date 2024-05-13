@@ -1,4 +1,4 @@
-# Proyecto pagina web Kalisca - accesorios | UTN
+# Proyecto pagina web Kaliska - accesorios | UTN
 
 ## 
 
@@ -11,4 +11,4 @@
 
 [Enlace a una página web](https://www.ejemplo.com)
 
-![Imagen de ejemplo](https://www.ejemplo.com/imagen.jpg)
+![Imagen de ejemplo](./assets/images/Kaliscalogo.png)
