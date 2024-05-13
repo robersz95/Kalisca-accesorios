@@ -91,16 +91,18 @@ section {
 }
 
 /*CATEGORIAS----*/
+
 #categories {
     display: flex;
     background-color: var(--color-primary);
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 60px;
     text-align: center;
 }
 
 #categories div {
+    margin: 70px;
     border: solid --color-primary;
     border-radius: 15px;
     background-color: var(--color-secondari);
@@ -119,6 +121,7 @@ section {
 }
 
 #categories img {
+    border: 1px solid black;
     width: 50%
 }
 
@@ -265,10 +268,4 @@ form button {
 
 .boton {
     width: 100px;
-}
-
-@media (max-width: 880) {
-    main {
-        grid-template-columns: 1fr 1fr;
-    }
 }
