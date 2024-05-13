@@ -125,21 +125,21 @@
         </section>
 
         <section id="contact">
-            <form>
+            <form action="procesar_formulario.php" method="post">
                 <h2>Mensaje</h2>
                 <div>
                     <label for="name">Nombre</label>
-                    <input id="name" type="text" placeholder="ingrese su nombre" required />
+                    <input id="name" name="name" type="text" placeholder="Ingrese su nombre" required />
                 </div>
                 <div>
-                    <label for="email">correo electronico</label>
-                    <input id="email" type="email" placeholder="ingrese su correo" required />
+                    <label for="email">Correo electrónico</label>
+                    <input id="email" name="email" type="email" placeholder="Ingrese su correo" required />
                 </div>
                 <div>
-                    <label for="massage">Mensaje</label>
-                    <textarea id="massage" placeholder="ingrese su mensaje"></textarea>
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" placeholder="Ingrese su mensaje"></textarea>
                 </div>
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
             </form>
         </section>
 
@@ -152,13 +152,12 @@
                     <h3>Contacto</h3>
                     <p>
                         <i class='bx bx-envelope'></i>
-                        <a
-                            href="https://accounts.google.com/v3/signin/challenge/pwd?TL=ALv_Gf_49wjnlBMnv0Gr7dC4V3UDZlVBsYZeI0uRQdhgvmgfKTzeo92ea01zIiIV&cid=1&continue=https://myaccount.google.com/signinoptions/password?hl%3Des%26pli%3D1&flowName=GlifWebSignIn&hl=es_419&ifkv=AaSxoQypwqjFftW3DFjtLG9I9jjV98DPPlugE2BeX_EwqI2qoK-daM8ls22bo3ss8YTTsdC3cbU1&kdi=CAM&rart=ANgoxccKejGTkgUPivQnwq8yqQsNLA69gFgp8EFs8uVHR-hqPlpMBh79jCo2enUqfOp87BgUZYKVHavr65iyzKbDglN0kB3ViMd4levM0GvrdF_IVyAFkj8&rpbg=1&sarp=1&scc=1&service=accountsettings">Email:
+                        <a href="mailto:test@gmail.com?Subject=proyecto%20web%20UTN%202024" target="_blank">E-mail:
                             test@gmail.com</a>
                     </p>
                     <p>
                         <i class='bx bx-phone'></i>
-                        <a href="123456789">TEL: 123456789</a>
+                        <a href="tel:123456789" target="_blank">TEL: 123456789</a>
                     </p>
                 </div>
                 <div>

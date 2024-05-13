@@ -91,7 +91,6 @@ section {
 }
 
 /*CATEGORIAS----*/
-
 #categories {
     display: flex;
     background-color: var(--color-primary);
@@ -266,4 +265,10 @@ form button {
 
 .boton {
     width: 100px;
+}
+
+@media (max-width: 880) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
 }
