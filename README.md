@@ -18,6 +18,6 @@
 **Este proyecto busca proporcionar una experiencia de compra cómoda y atractiva para los usuarios interesados en accesorios para mujer.**
 
 
-[Enlace a una página web](https://www.ejemplo.com)
+[Enlace a una página web](https://kalisca-accesorios.vercel.app/)
 
 ![Imagen de ejemplo](./assets/images/Kaliscalogo.png)
